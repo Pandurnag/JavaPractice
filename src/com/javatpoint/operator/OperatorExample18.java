@@ -1,0 +1,9 @@
+package com.javatpoint.operator;
+
+public class OperatorExample18{  
+public static void main(String args[]){  
+short a=10;  
+short b=10;  
+a=(short)(a+b);//20 which is int now converted to short  
+System.out.println(a);  
+}}  
