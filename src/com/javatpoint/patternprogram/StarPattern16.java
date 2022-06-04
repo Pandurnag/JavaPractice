@@ -12,17 +12,19 @@ public class StarPattern16 {
 				System.out.print(" ");
 			}
 			for(k=1;k<(i*2);k++) {
-				
-				if (k>1 && k<(i*2)-1) {
+						
+				if(k>1 && k<(i*2)-1) {
 					
 					System.out.print(" ");
 				}
-			else {
+			else 
+			{
 				System.out.print("*");
 			}
+				
 		}
-	}System.out.println();
-
-}
+	System.out.println();
+		}
+   }
 }
 
